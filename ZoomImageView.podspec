@@ -9,4 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/muukii0803'
   s.ios.deployment_target = '8.0'
   s.source_files = 'ZoomImageView/**/*.swift'
+
+  s.dependency 'SDWebImage', '~> 4.0'
+
 end
